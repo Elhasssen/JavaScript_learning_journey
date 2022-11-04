@@ -169,3 +169,103 @@
 //   }
 
 // const answer = plusThree(5);
+
+// global scope and functions
+
+// const myGlobal = 10;
+
+// function fun1() {
+//     oopsGlobal = 5;
+  
+//   }
+  
+//   // Only change code above this line
+  
+//   function fun2() {
+//     var output = "";
+//     if (typeof myGlobal != "undefined") {
+//       output += "myGlobal: " + myGlobal;
+//     }
+//     if (typeof oopsGlobal != "undefined") {
+//       output += " oopsGlobal: " + oopsGlobal;
+//     }
+//     console.log(output);
+//   }
+
+// Variables declared Globally (outside any function)
+//  have Global Scope.
+// Global variables can be accessed from anywhere 
+// in a JavaScript program.
+
+// Local Scope and Functions
+// Variables which are declared within a function, 
+// as well as the function parameters, have local 
+// scope. That means they are only visible within 
+// that function.
+
+// function myTest() {
+//     const loc = "foo";
+//     console.log(loc);
+//   }
+  
+//   myTest();
+//   console.log(loc);
+
+// myTest() will output foo 
+// but console.log(loc) will raise an error
+
+
+// Global vs. Local Scope in Functions
+
+// It is possible to have both local and global 
+// variables with the same name. When you do this,
+//  the local variable takes precedence over 
+//  the global variable.
+
+
+// const someVar = "Hat";
+
+// function myFun() {
+//   const someVar = "Head";
+//   return someVar;
+// }
+
+// The function myFun will return the string Head 
+// because the local version of the variable is present.
+
+
+// Understanding Undefined Value returned from a 
+// Function
+
+// A function can include the return statement but it 
+// does not have to. In the case that the function 
+// doesn't have a return statement, when you call it, 
+// the function processes the inner code but the 
+// returned value is undefined.
+
+// let sum = 0;
+
+// function addSum(num) {
+//   sum = sum + num;
+// }
+
+// addSum(3);
+
+// addSum is a function without a return statement
+// . The function will change the global sum variable
+//  but the returned value of the function is undefined.
+
+
+// Assignment with a Returned Value
+
+// If you'll recall from our discussion about Storing 
+// Values with the Assignment Operator, everything to 
+// the right of the equal sign is resolved before the 
+// value is assigned. This means we can take the 
+// return value of a function and assign it to a 
+// variable.
+
+// ourSum = sum(5, 12);
+// the function will return 17 to the ourSum variable 
+// and store it there
+
