@@ -347,3 +347,113 @@
 //  the data type and value as-is, without converting 
 //  one type to the other.
 // ----------------------------------------
+// Comparison with the Inequality Operator:
+// The inequality operator (!=) is the opposite of 
+// the equality operator. It means not equal and
+// returns false where equality would return true
+// and vice versa. Like the equality operator, 
+// the inequality operator will convert data 
+// types of values while comparing.
+// -----------------------------------------
+// Comparison with the Inequality Operator
+// The inequality operator (!=) is the opposite of 
+// the equality operator. It means not equal and 
+// returns false where equality would return true 
+// and vice versa. Like the equality operator, the 
+// inequality operator will convert data types of 
+// values while comparing.
+// 1 !=  2    // true
+// 1 != "1"   // false
+// 1 != '1'   // false
+// 1 != true  // false
+// 0 != false // false
+// ------------------------------------------
+// Comparison with the Strict Inequality Operator
+// The strict inequality operator (!==) is the logical
+//  opposite of the strict equality operator. It 
+//  means "Strictly Not Equal" and returns false 
+//  where strict equality would return true and 
+//  vice versa. The strict inequality operator will 
+//  not convert data types.
+// 3 !==  3  // false
+// 3 !== '3' // true
+// 4 !==  3  // true
+// ------------------------------------------
+// Comparison with the Greater Than Operator
+// The greater than operator (>) compares the values 
+// of two numbers. If the number to the left is
+// greater than the number to the right, it returns 
+// true. Otherwise, it returns false.
+
+// Like the equality operator, the greater than
+// operator will convert data types of values 
+// while comparing.
+// 5   >  3  // true
+// 7   > '3' // true
+// 2   >  3  // false
+// '1' >  9  // false
+// same goes for greater or equal, smaller or equal
+// ------------------------------------------
+// Comparisons with the Logical And Operator
+// Sometimes you will need to test more than one 
+// thing at a time. The logical and operator (&&) 
+// returns true if and only if the operands to the 
+// left and right of it are true
+// --- from 
+// if (num > 5) {
+//     if (num < 10) {
+//       return "Yes";
+//     }
+//   }
+//   return "No";
+// ---- to
+// if (num > 5 && num < 10) {
+//     return "Yes";
+//   }
+//   return "No";
+// --------------------------------------------
+// Comparisons with the logical Or operator 
+// The logical or operator (||) returns true if 
+// either of the operands is true. Otherwise, 
+// it returns false.
+// The logical or operator is composed of two 
+// pipe symbols: (||). This can typically be 
+// found between your Backspace and Enter keys.
+// --- From 
+// if (num > 10) {
+//     return "No";
+//   }
+//   if (num < 5) {
+//     return "No";
+//   }
+//   return "Yes";
+// --- To
+// if (num > 10 || num < 5) {
+//     return "No";
+//   }
+//   return "Yes";
+// ----------------------------------------------
+// Introducing else statements 
+// When a condition for an if statement is true, the
+// block of code following it is executed. What about
+// when that condition is false? Normally nothing 
+// would happen. With an else statement, an 
+// alternate block of code can be executed.
+// if (num > 10) {
+//     return "Bigger than 10";
+//   } else {
+//     return "10 or Less";
+//   }
+// ---------------------------------------------
+// Introducing else if statements 
+// If you have multiple conditions that need to 
+// be addressed, you can chain if statements 
+// together with else if statements.
+// if (num > 15) {
+//     return "Bigger than 15";
+//   } else if (num < 5) {
+//     return "Smaller than 5";
+//   } else {
+//     return "Between 5 and 15";
+//   }
+// -------------------------------------------
