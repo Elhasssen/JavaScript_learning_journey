@@ -605,3 +605,32 @@
 //     default:
 //       answer = "c";
 //   }
+// --------------------------------
+// Returning boolean values from Functions 
+// You may recall from comparison with the equality operator
+// that all campatison operator return a boolearn true or 
+// false value 
+// Sometimes people use an if/else statements to do a compatison
+// like this :
+// function isEqual(a,b) {
+//     if (a === b) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// or this can be made in another way : 
+// function isEqual(a,b) {
+//     return a ===b;
+// }
+// ---------------------------------
+// Return early Pattern for functions 
+// when a return statement is reached, the execution of the current 
+// function stops and control returns to the calling functions
+// example :
+// function myFun() {
+//     console.log("Hello");
+//     return "World";
+//     console.log("byebye");
+// }
+// myFun();
