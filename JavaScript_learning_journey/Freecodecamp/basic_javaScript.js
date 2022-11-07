@@ -634,3 +634,231 @@
 //     console.log("byebye");
 // }
 // myFun();
+// ----------------------------
+// Counting card game 
+// In the casino game Blackjack, a player can determine whether they have an advantage on the next hand over the house by keeping track of the relative number of high and low cards remaining in the deck. This is called Card Counting.
+
+// Having more high cards remaining in the deck favors the 
+// player. Each card is assigned a value according to the 
+// table below. When the count is positive, the player should 
+// bet high. When the count is zero or negative, the player 
+// should bet low.
+// let count = 0;
+
+// function cc(card) {
+//     // Only change code below this line
+//     if (card === 2 || card === 3 || card === 4 || card === 5 || card ===6) {
+//       count ++;
+//     } else if (card === 10 || card === 'J' || card === 'Q' || card === 'K' || card === 'A') {
+//       count --;
+//     } else {
+//       // do nothing
+//     }
+//     if (count > 0) {
+//       return count + ' Bet';
+//     } else {
+//       return count + ' Hold';
+//     }
+//     // Only change code above this line
+//   }
+  
+//   cc(2); cc(3); cc(7); cc('K'); cc('A');
+// ---------------------------------------
+// build Javascript Objects
+// Objects are similar to arrays, except that instead of using 
+// indexes to access and modify their data, you access the data 
+// in objects through what are called properties 
+// Objects are useful for storing data in a structured way 
+// and can represent real world objects, like a cat.
+// const cat = {
+//   "name": "Whiskers",
+//   "legs": 4,
+//   "tails": 1,
+//   "enemies": ["Water", "Dogs"]
+// };
+// ---------------------------------------
+// Accessing Object properties with dot notatation
+// there are two ways to access the properties of an object:
+// dot notations(.) and bracket notation ([]), similar to an array.
+// dot notations is what you use when you know the name of the 
+// property you're trying to access ahead of time 
+// here is an example 
+// const myObj = {
+//     prop1 : "val1",
+//     prop2 : "val2"
+// };
+// const prop1val = myObj.prop1;
+// const prop2val = myObj.prop2;
+// -------------------------------------
+// Accessing Object properties with brackets notation
+// The second way to access the properties of an object
+// is bracket notations ([]). if the property of the object
+// you are trying to access has a space in its name, you
+// will need to use the bracket notations, however you can still
+// use the bracket notation to names without spaces as well.
+// here is an example : 
+// const myObj = {
+//     "Space Name" : "Kirk",
+//     "More Space" : "Spock",
+//     "NoSpace" : "USS Entreprise"
+// };
+
+// myObj['Space Name'];
+// myObj['More Space'];
+// myObj['NoSpace'];
+// ----------------------
+// Accessing object properties with variables 
+// Another use of bracket notation is to acess a property
+// which is stored as the value of a variable. THis can be very
+// usefull for iterationg throuhg an object's properties or when 
+// accessing a lookup table.
+// Here is a an example of using a variable to access a property
+// const dog = {
+//     fido : "Mutt",
+//     Hunter : "Doberman",
+//     Snoopie : "Beagle"
+// };
+// const myDog = "Hunter";
+// const myBreed = dogs[myDog];
+// console.log(myBreed);
+// -----------------------------------------
+// Updating Object properties 
+// After you have created a javascript object, you can update,
+// its properties at any time just like you would update any 
+// other variable. you can use either dot or bracket notation to update
+// example 
+// const ourDog = {
+//     "name" : "Camper",
+//     "legs" : 4,
+//     "tails" : 1,
+//     "friends" : ["everything!"]
+// }
+// we can upadte his value as :
+// outDog.name = "Happy camper" or ourDog["name"] = "Happy camper"
+// ----------------------
+// add new properties to a javascript Object
+// you can add new properties to existing Javascript objects the same 
+// way you would modfy them 
+// example 
+// const ourDog = {
+//     "name" : "Camper",
+//     "legs" : 4,
+//     "tails" : 1,
+//     "friends" : ["everything!"]
+// };
+// ourDog.bark = "bow-wow";
+// Delete properties from a javascript Object
+// We can also delete properties form objects like this :
+// delete ourDog.bark;
+// example : 
+// const ourDog = {
+//     "name" : "Camper",
+//     "legs" : 4,
+//     "tails" : 1,
+//     "friends" : ["everything!"],
+//     "bark" : "bow-wow"
+// };
+// delete ourDog.bark;
+// ------------------------------------
+// Using objects for Lookups 
+// Objects can be though of as key/value storage, like a dictionary
+// is you have tabular data, you can use an object to lookup values 
+// rather than a switch statement or an if/else chain, this is most
+// usefull when you know that your input data is limited to a certain range.
+// const alpha = {
+//     1:"Z",
+//     2:"Y",
+//     3:"X",
+//     4:"W",
+//     ...
+//     24:"C",
+
+//     25:"B",
+//     26:"A"
+//   };
+  
+//   const thirdLetter = alpha[2];
+//   const lastLetter = alpha[24];
+  
+//   const value = 2;
+//   const valueLookup = alpha[value];
+// ---------------------------------------
+// Testing Objects for properties 
+// Sometimes it is useful to check if the property of a given
+// objects exists or not, we can use the .hasOwnProperty(propname) method
+// of objects to determine if that object has the given property name
+// it return a boolean value from to True to false
+// example : 
+// const myObj = {
+//     top : "hat",
+//     bottom : "pants"
+// };
+
+// myObj.hasOwnProperty("top"); // this will retrun True
+// myObj.hasOwnProperty("bottom"); // this will return False
+// ------------------------------------------------
+// Manipulating Complex Objects 
+// Sometimes you may want to store data in a flexible data structure
+// a JavaScript object is one way to handle flexible data. They allow for arbitrary
+// combinations of strings, boolearns, arrays, functions, and objects.
+// Example : 
+// const ourMusic = [
+//     {
+//       "artist": "Daft Punk",
+//       "title": "Homework",
+//       "release_year": 1997,
+//       "formats": [ 
+//         "CD", 
+//         "Cassette", 
+//         "LP"
+//       ],
+//       "gold": true
+//     }
+//   ];
+// -----------------------------
+// Accessing Nested Objects
+// the sub-properties of objects can be accessed by
+// chaining together the dot or bracket notations
+// here is a nested object :
+// const ourStorage = {
+//     "desk" : {
+//         "drawer" : "stapler"
+//     },
+//     "cabinet" : {
+//         "top drawer" : {
+//             "folder1" : "a file",
+//             "folder2" : "secrets"
+//         },
+//         "bottom drawer" : "soda"
+//     }
+// };
+// ourStorage.cabinet["top drawer"].folder2;
+// ourStorage.desk.drawer;
+// --------------------------------
+// Accessing Nested Arrays
+// as we have seen in earlier examples, objects can contain both
+// nested objects and nested arrays, similar to acessing nested 
+// objects, array bracket notations can be chained to access nested 
+// arrays
+// Here is an example of how to access a nested array:
+// const ourPets = [
+//     {
+//       animalType: "cat",
+//       names: [
+//         "Meowzer",
+//         "Fluffy",
+//         "Kit-Cat"
+//       ]
+//     },
+//     {
+//       animalType: "dog",
+//       names: [
+//         "Spot",
+//         "Bowser",
+//         "Frankie"
+//       ]
+//     }
+//   ];
+  
+//   ourPets[0].names[1];
+//   ourPets[1].names[0];
