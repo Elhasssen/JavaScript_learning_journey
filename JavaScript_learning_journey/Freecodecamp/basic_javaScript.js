@@ -862,3 +862,123 @@
   
 //   ourPets[0].names[1];
 //   ourPets[1].names[0];
+// ------------------------
+// Record collection
+// You are given an object literal representing a part of your
+// musical album collection. each album has a unique id number as its
+// key and several other properties. not all albums have complete
+// informations
+// you start an updateRecords function that takes an object literal
+// records. contating the musical album collection, an id, a prop
+// (like artist or tracks) and a value, Complete the function using
+// the rules below to modify the object passed to the function
+// Your function must always retrin the entire record collection object.
+// if prop isn't tracks and value isn't an empty string, update or set that
+// album'm prop to value
+// if prop is track but the album doesn't have a tracks property, create
+// an empty array and add value to it.
+// if prop is tracks and value in't an empty string, add value to the end
+// of the album's existing tracks array.
+// if value is an empty string, delete the given prop property from 
+// the album 
+// Setup
+// const recordCollection = {
+//     2548: {
+//       albumTitle: 'Slippery When Wet',
+//       artist: 'Bon Jovi',
+//       tracks: ['Let It Rock', 'You Give Love a Bad Name']
+//     },
+//     2468: {
+//       albumTitle: '1999',
+//       artist: 'Prince',
+//       tracks: ['1999', 'Little Red Corvette']
+//     },
+//     1245: {
+//       artist: 'Robert Palmer',
+//       tracks: []
+//     },
+//     5439: {
+//       albumTitle: 'ABBA Gold'
+//     }
+//   };
+  
+//   // Only change code below this line
+//   function updateRecords(records, id, prop, value) {
+//     if (value == '') {
+//       delete records[id][prop];
+//     } else {
+//       if (prop == 'artist') {
+//         records[id].artist = value;
+//       }
+//       if (prop == 'tracks' && records[id].hasOwnProperty('tracks') == false) {
+//         records[id]['tracks'] = [];
+//       }
+//       if (prop == 'tracks') {
+//         records[id]['tracks'].push(value);
+//       }
+//       if (prop == 'albumTitle') {
+//         records[id].albumTitle = value;
+//       }
+//     }
+//     return records;
+//   }
+  
+//   updateRecords(recordCollection, 5439, 'artist', 'ABBA');
+// --------------------------------
+// Iterate with JavaScript while loops
+// You can run the same code multiple times by using a loop because it
+// runs while a specified condition is met, and stops once that condition
+// is no longer true.
+
+// const ourArray = [];
+// let i = 0;
+
+// while (i < 5) {
+//     ourArray.push(i);
+//     i++;
+// }
+// ----------------------------------
+// For loop : 
+// For loops are declared with three optional expressions 
+// separated by semicolons:
+
+// for (a; b; c), where a is the initialization statement, 
+// b is the condition statement, and c is the final expression.
+// Example : 
+// const ourArray = [];
+
+// for (let i = 0; i < 5; i++) {
+//   ourArray.push(i);
+// }
+// ----------------------------------
+// Looping through an array with for loop 
+// const arr = [10,9,8,7,6];
+
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
+// ----------------------------------
+// Nesting for loops 
+// If you have a multip dimentional array, you can use the same
+// logic as the prior waypoint to loop through both the array and any
+// sub-arrays, here is an example : 
+
+// const arr = [[1,2],[3,4],[5,6]];
+
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr[i].length; j++){
+//         console.log(arr[i][j]);
+//     }
+// }
+// -------------------------------------
+// do while loop : 
+// The nest type of loop if called a do while loop; it will do 
+// a one pass of code no matter what then continue depending on the condition
+// 
+// const ourArray = [];
+// let i = 0;
+// do {
+//     ourArray.push(i);
+//     i++;
+
+// } while (i < 5); 
