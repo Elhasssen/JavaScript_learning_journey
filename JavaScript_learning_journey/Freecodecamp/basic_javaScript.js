@@ -1065,3 +1065,90 @@
   
 //   lookUpProfile("Akira", "likes");
 // -------------------------------------------------------
+// Generate random whole numbers within a range 
+// insead of generating a random whole number between zero and a given
+// number like we did before; we can generate a randome whole number that fall
+// within a range of two specific numbers 
+
+// function randomRange(myMin, myMax) {
+// return Math.floor(Math.random() * (myMax - myMin + 1) + myMin)
+// }
+// -------------------------------------------------
+// use the parseInt function 
+// the paraseInt() function parses a string and returns an integer.
+// Here's an example 
+
+// function convertToInteger(str){
+//     return parseInt(str);
+// }
+//-----------------------------------------------------
+// Using the parseInt function with Radix
+// the parseint() function pares a string and takes a second argument
+// that can define that numbe ystem 
+
+// function convertToInteger(str){
+//     return parseInt(str,2);
+
+// }
+//-------------------------------------------------------
+// Using the conditioanl (ternary opertor)
+// the conditioanl operation, also called the ternary operator, can be used 
+// as a one line if-else expression 
+// the syntax is a ? b : c, where a i the condition, b is the code to run 
+// when that condition is met, c is the code to run when the condition returns
+// false
+
+// here is an example : 
+// function checkEqual(a,b) {
+//     return a == b ? "Equal" : "Not Equal";
+
+// }
+//--------------------------------------------------------
+// Using Multiple condtiontal (ternary) operators 
+// example :
+// a ? b : a ? b : c 
+
+// function checkSign(num) {
+//     return num > 0 ? 'positive'
+//     : num < 0 ? 'negative'
+//     : 'zero';
+//   }
+  
+//   checkSign(10);
+// -----------------------------------------
+// Countdown using recussion :
+// is recursion there mmust be a base case or it will run 
+// forever, so it is a simple case where there return value is
+// already known, there will also be a recursive call which executs
+// the original function with different arguments. if the function is 
+// written correctly, eventually the base case will be reached.
+
+// function countdown(n) {
+//     if (n < 1) {
+//         // this is the base case here
+//         // once the number is below 1 the function 
+//         // will return an empty array;
+//         return [];
+//     } else {
+//         // to this constant countArray
+//         const countArray = countdown(n - 1);
+//         // Unshift will add a value at the begining of the list 
+//         countArray.unshift(n);
+//         return countArray;
+//     }
+// }
+// -------------------------------
+// Recursion to create a range of numbers
+// between to arguments : from to 
+// function rangeOfNumbers(startNum, endNum){
+//     if (endNum < startNum) {
+//         return [];
+//     } else {
+//         const rangeArray = rangeOfNumbers(startNum, endNum);
+//         rangeArray.push(endNum);
+//         return rangeArray;
+//     };
+//     rangeOfNumbers(3,4);
+// }
+// ------------------------------------------
+
