@@ -119,7 +119,7 @@
 // console.log(threeArr);
 
 // The first console.log will display the value 6, 
-// and the second will display the value [1, 4].
+// and the second will display the value [1, 2].
 // ---------------------------------------
 
 // Manpipulate Arrays with shift()
@@ -1151,3 +1151,8 @@
 //     rangeOfNumbers(3,4);
 // }
 // ------------------------------------------
+// compare scopes of the vat and let keywords
+// When you declare a variable with the let keyword inside a block, statement, 
+// or expression, its scope is limited to that block, statement, or expression.
+
+
