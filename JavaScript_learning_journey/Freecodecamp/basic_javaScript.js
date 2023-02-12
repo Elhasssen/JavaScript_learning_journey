@@ -1170,3 +1170,47 @@
 //   // Only change code above this line
 // }
 // editInPlace();
+// --------------------
+// prevent objects mutation 
+// 
+// 
+// let obj = {
+//   name:"FreeCodeCamp",
+//   review:"Awesome"
+// };
+// Object.freeze(obj);
+// obj.review = "bad";
+// obj.newProp = "Test";
+// console.log(obj); 
+// Object.freeze will prevent mutation
+// -------------------------
+// When there is no function body, and only a return value, arrow function 
+// syntax allows you to omit the keyword return as well as the brackets 
+// surrounding the code. This helps simplify smaller functions into one-line 
+// statements:
+// const myFunc = function() {
+//   const myVar = "value";
+//   return myVar;
+// }
+// thjis can be written to this 
+// const myFunc = () => "Value" ;
+// ------------------------------------
+// Set Default Parameters for Your Functions
+// const greeting = (name = "Anonymous") => "Hello " + name;
+
+// console.log(greeting("John"));
+// console.log(greeting());
+// he default parameter kicks in when the argument is not specified (it is undefined).
+//-------------------------------------------
+// Use the Rest Parameter with Function Parameters
+// function howMany(...args) {
+//   return "You have passed " + args.length + " arguments.";
+// }
+// console.log(howMany(0, 1, 2));
+// console.log(howMany("string", null, [1, 2, 3], { }));
+// The console would display the strings You have passed 3 arguments. and You have passed 4 arguments..
+// -----------------------------------------------------------------
+// Use the Spread Operator to Evaluate Arrays In-Place
+//...arr returns an unpacked array. In other words, it spreads the array. However, the spread operator only works in-place,
+// const arr = [6, 89, 3, 45];
+// const maximus = Math.max(...arr);
