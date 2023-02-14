@@ -1214,3 +1214,24 @@
 //...arr returns an unpacked array. In other words, it spreads the array. However, the spread operator only works in-place,
 // const arr = [6, 89, 3, 45];
 // const maximus = Math.max(...arr);
+// New ways to extract values from objects 
+// using the destucturing assignment
+// const user = {name = "hassen", age = 24};
+// const  {name, age} = user;
+// -----------------------------------------------------------------
+// Destructuring allows you to assign a new variable name when extracting values. You can do this by 
+// putting the new name after a colon when assigning the value.
+// const user = { name: 'John Doe', age: 34 };
+// const { name: userName, age: userAge } = user;
+// --------------------------------------------------------
+// Use Destructuring Assignment to Assign Variables from Nested Objects
+// const user = {
+//   johnDoe: { 
+//     age: 34,
+//     email: 'johnDoe@freeCodeCamp.com'
+//   }
+// };
+// to : 
+// const { johnDoe: { age, email }} = user;
+// or with diffrent names 
+// const {johnDoe : {age : userAge, email : UserEmail}} = user;
