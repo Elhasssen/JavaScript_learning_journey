@@ -1266,5 +1266,5 @@
 //     x: x,
 //     y: y
 //   });
-// to this 
+// to this fd
 // const getMousePosition = (x, y) => ({ x, y });
