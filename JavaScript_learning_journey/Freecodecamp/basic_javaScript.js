@@ -1235,3 +1235,36 @@
 // const { johnDoe: { age, email }} = user;
 // or with diffrent names 
 // const {johnDoe : {age : userAge, email : UserEmail}} = user;
+//---------------------------------------
+// Use Destructuring Assignment to Assign Variables from Arrays
+// const [a, b] = [1, 2, 3, 4, 5, 6];
+// console.log(a, b);
+// Destructuring via rest elements
+// The result is similar to Array.prototype.slice(), as shown below:
+// const [a, b, ...arr] = [1, 2, 3, 4, 5, 7];
+// console.log(a, b);
+// console.log(arr);
+//-------------------------------------------
+// Use Destructuring Assignment to Pass an Object as a Function's Parameters
+// const profileUpdate = (profileData) => {
+//   const { name, age, nationality, location } = profileData;
+
+// }
+// to :
+// This effectively destructures the object sent into the function. This 
+// can also be done in-place:
+// const profileUpdate = ({ name, age, nationality, location }) => { }
+// ----------------------------------
+// Create Strings using Template Literals
+// A new feature of ES6 is the template literal. This 
+// is a special type of string that makes creating complex strings easier.
+// const greeting = `Hello, my name is ${person.name}!
+// I am ${person.age} years old.`;
+//-----------------------------------------
+// rite Concise Object Literal Declarations Using Object Property Shorthand
+// const getMousePosition = (x, y) => ({
+//     x: x,
+//     y: y
+//   });
+// to this 
+// const getMousePosition = (x, y) => ({ x, y });
