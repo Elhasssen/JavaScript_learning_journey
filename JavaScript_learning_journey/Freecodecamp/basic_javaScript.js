@@ -1268,3 +1268,27 @@
 //   });
 // to this fd
 // const getMousePosition = (x, y) => ({ x, y });
+// ---------------------------------------
+// using class ystax to define a constructor function 
+// In ES5, an object can be created by defining a constructor function and using the new keyword to instantiate the object.
+
+// In ES6, a class declaration has a constructor method that is invoked with the new keyword. 
+// If the constructor method is not explicitly defined, then it is implicitly defined with no arguments.
+// // Explicit constructor
+// class SpaceShuttle {
+//     constructor(targetPlanet) {
+//       this.targetPlanet = targetPlanet;
+//     }
+//     takeOff() {
+//       console.log("To " + this.targetPlanet + "!");
+//     }
+//   }
+  
+//   // Implicit constructor 
+//   class Rocket {
+//     launch() {
+//       console.log("To the moon!");
+//     }
+//   }
+// ------------------------------ 
+
