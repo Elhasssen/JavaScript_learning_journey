@@ -1383,3 +1383,11 @@
 //   makeServerRequest.then(result => {
 //     console.log(result)
 //   });
+// ---------------------------------------------------
+// Regulat Expresions
+// JavaScript has multiple ways to use regexes. One way to test a regex 
+// is using the .test() method. The .test() method takes the regex,
+// let myString = "Hello, World!";
+// let myRegex = /Hello/;
+// let result = myRegex.test(myString); // Change this line
+// the test ;ethod here returns true
