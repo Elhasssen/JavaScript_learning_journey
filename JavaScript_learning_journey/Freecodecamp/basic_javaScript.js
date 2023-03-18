@@ -1349,3 +1349,37 @@
 // // Only change code above this line
 
 // subtract(7,4);
+//----------------------
+// JavaScript Promise
+// A promise in JavaScript is exactly what it sounds like - you use it to make a promise 
+// to do something, usually asynchronously. When the task completes, you either fulfill 
+// your promise or fail to do so. Promise is a constructor function, so you need to use 
+// the new keyword to create one.
+// const myPromise = new Promise((resolve, reject) => {
+
+// });
+// ---------------------------
+// Complete a Promise with resolve and reject
+//const myPromise = new Promise((resolve, reject) => {
+    // if(condition here) {
+    //     resolve("Promise was fulfilled");
+    //   } else {
+    //     reject("Promise was rejected");
+    //   }
+    // });
+//----------------------------------
+// Handle a Fulfilled Promise with then
+// const makeServerRequest = new Promise((resolve, reject) => {
+//     // responseFromServer is set to true to represent a successful response from a server
+//     let responseFromServer = true;
+      
+//     if(responseFromServer) {
+//       resolve("We got the data");
+//     } else {  
+//       reject("Data not received");
+//     }
+//   });
+  
+//   makeServerRequest.then(result => {
+//     console.log(result)
+//   });
