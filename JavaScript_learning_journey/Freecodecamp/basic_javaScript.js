@@ -1424,5 +1424,24 @@
 // let result = twinkleStar.match(starRegex); // Change this line
 // using the global search 'g' and igonoring the case with 'i'
 //---------------------------------------------------------
-//
+// match anything with wildcard period 
+// // let exampleStr = "Let's have fun with regular expressions!";
+// let unRegex = /.un./; // Change this line
+// let result = unRegex.test(exampleStr);
+// this will match word like, sun, run, nun, fun
+//----------------------------
+// Match single chartcher with multiple possibilities 
+// You can search for a literal pattern with some flexibility with character classes. 
+// Character classes allow you to define a group of characters you wish to match by placing 
+// them inside square ([ and ]) brackets.
+// in this example we want to match all the vowels inside this string 
+// let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
+// so we put the class of all the vowels wanted to be matched, by ignoring the case by 'i' and searching more tha
+// than on match using the global match 'g' 
+// let vowelRegex = /[aeiou]/ig; // Change this line
+// let result = quoteSample.match(vowelRegex); 
+// console.log(result);// Change this line
+// -----------------------------------
+
+
 
