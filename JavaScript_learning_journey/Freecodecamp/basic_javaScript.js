@@ -1391,3 +1391,17 @@
 // let myRegex = /Hello/;
 // let result = myRegex.test(myString); // Change this line
 // the test ;ethod here returns true
+//-------------------------------------
+// Match literal strings
+// n the last challenge, you searched for the word Hello using the regular expression /Hello/.
+// That regex searched for a literal match of the string Hello. Here's another example searching 
+// for a literal match of the string Kevin:
+// let testStr = "Hello, my name is Kevin.";
+// let testRegex = /Kevin/;
+// testRegex.test(testStr);
+// this test will retrun True
+// match a literal string with differenet ^possibilities 
+// let petString = "James has a pet cat.";
+// let petRegex = /dog|cat|bird|fish/; // Change this line
+// let result = petRegex.test(petString);
+// using "|" the alternation operator
