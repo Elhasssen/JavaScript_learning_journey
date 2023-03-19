@@ -1442,6 +1442,37 @@
 // let result = quoteSample.match(vowelRegex); 
 // console.log(result);// Change this line
 // -----------------------------------
+// match Letters of the alphabet
+// Inside a character set, you can define a range of 
+// characters to match using a hyphen character: -.
+// let quoteSample = "The quick brown fox jumps over the lazy dog.";
+// let alphabetRegex = /[a-z]/ig; // Change this line
+// let result = quoteSample.match(alphabetRegex); // Change this line
+// this will match all the alphabets with uppercase aswell 
+// and will match more than one match
+//--------------------------------------------------------
+// match numbers and letters of the alphabet
+// let quoteSample = "Blueberry 3.141592653s are delicious.";
+// let myRegex = /[h-s2-6]/ig; // Change this line
+// let result = quoteSample.match(myRegex);
+// -----------------------------------------
+// Match single characters not specified 
+// To create a negated character set, you place a caret character (^) after the opening bracket 
+// and before the characters you do not want to match.
+// let quoteSample = "6 abs";
+// let myRegex = /[^aeiou0-5]/ig; // Change this line
+// let result = quoteSample.match(myRegex);
+// console.log(result) // Change this line
+// --------------------------------
+// Match characters that occur one or more times 
+// You can use the + character to check if that is the case. Remember, 
+// the character or pattern has to be present consecutively. That is, 
+// the character has to repeat one after the other.
+// let difficultSpelling = "Mississippi";
+// let myRegex = /s+/g // Change this line
+// let result = difficultSpelling.match(myRegex);
+// console.log(result);
+// -------------------------------
 
 
 
