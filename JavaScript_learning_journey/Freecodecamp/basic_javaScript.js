@@ -1405,3 +1405,24 @@
 // let petRegex = /dog|cat|bird|fish/; // Change this line
 // let result = petRegex.test(petString);
 // using "|" the alternation operator
+// ------------------------
+// igonre a case while matching
+// let myString = "freeCodeCamp";
+// let fccRegex = /freecodecamp/i; // Change this line
+// let result = fccRegex.test(myString);
+//------------------------------------------
+// Extracting matches 
+// you have only been checking if a pattern exists or not within a string. You can also 
+// extract the actual matches you found with the .match() method.
+// let extractStr = "Extract the word 'coding' from this string.";
+// let codingRegex = /coding/; // Change this line
+// let result = extractStr.match(codingRegex); // Change this line
+//-------------------------------------------
+// Finding more than the first match
+// let twinkleStar = "Twinkle, twinkle, little star";
+// let starRegex = /twinkle/gi; // Change this line
+// let result = twinkleStar.match(starRegex); // Change this line
+// using the global search 'g' and igonoring the case with 'i'
+//---------------------------------------------------------
+//
+
