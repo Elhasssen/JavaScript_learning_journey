@@ -142,3 +142,11 @@
 // let result = quoteSample.match(nonAlphabetRegex);
 // console.log(result);
 // the result is six, inclding the period and five space.
+// ---------------------------------
+// matching all numbers 
+// using \d 
+// let movieName = "2001: A Space Odyssey";
+// let numRegex = /\d/g; // Change this line
+// let result = movieName.match(numRegex);
+// console.log(result)
+// result is 4 digits 
