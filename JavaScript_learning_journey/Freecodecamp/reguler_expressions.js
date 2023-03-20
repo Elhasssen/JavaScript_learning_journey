@@ -128,3 +128,12 @@
 // the resulkt will be true
 // matching the end using the '$' sign
 //---------------------------------
+// matching all letters and numbers 
+// usinjg \w 
+//let quoteSample = "The five boxing wizards jump quickly.";
+// let alphabetRegexV2 = /\w+?/g; // Change this line
+// let result = quoteSample.match(alphabetRegexV2);
+// console.log(result);
+// the result will be each letter in the string which is 31 letters
+//------------------------------------------
+//
