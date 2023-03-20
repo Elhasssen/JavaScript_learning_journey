@@ -121,3 +121,10 @@
 // let result = calRegex.test(rickyAndCal);
 // this will return true because the string actually starts with cal
 // --------------------------------------
+// matching ending string patterns
+// let caboose = "The last car on a train is the caboose";
+// let lastRegex = /caboose$/; // Change this line
+// let result = lastRegex.test(caboose);
+// the resulkt will be true
+// matching the end using the '$' sign
+//---------------------------------
