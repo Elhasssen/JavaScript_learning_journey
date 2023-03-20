@@ -108,3 +108,16 @@
 // console.log(result)
 // The output is <h1> 
 // ---------------------------------------------------
+// Exercice : 
+// Find One or More Criminals in a Hunt
+// let reCriminals = /[^a-zA-Z0-9]?C+[a-zA-Z0-9]*?/g;
+// console.log('P1P54CCCcP2P6P3'.match(reCriminals)) // Change this line
+// ^ will negate those characters, and '?' will match the least short patterns whichis is zero
+// ----------------------
+
+// Match beginning string patterns
+// // let rickyAndCal = "Cal and Ricky both like racing.";
+// let calRegex = /^Cal/; // Change this line
+// let result = calRegex.test(rickyAndCal);
+// this will return true because the string actually starts with cal
+// --------------------------------------
