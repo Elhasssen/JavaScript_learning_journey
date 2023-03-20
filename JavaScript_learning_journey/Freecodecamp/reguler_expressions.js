@@ -136,4 +136,9 @@
 // console.log(result);
 // the result will be each letter in the string which is 31 letters
 //------------------------------------------
-//
+// Matching everything but letters and numbers 
+// let quoteSample = "The five boxing wizards jump quickly.";
+// let nonAlphabetRegex = /\W/g; // Change this line
+// let result = quoteSample.match(nonAlphabetRegex);
+// console.log(result);
+// the result is six, inclding the period and five space.
