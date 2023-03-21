@@ -182,3 +182,8 @@
 // ^[a-z] - first character is a letter
 // \d\d+ - following characters are 2 or more digits
 // $ - end of input
+// Matching white spaces 
+// let whiteSpace = "Whitespace. Whitespace everywhere!"
+// let spaceRegex = /\s/g;
+// whiteSpace.match(spaceRegex);
+// This match call would return [" ", " "].
