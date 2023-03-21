@@ -230,3 +230,14 @@
 // multipleHA.test(A4);
 // multipleHA.test(A3);
 // multipleHA.test(A100);
+// --------------------------
+// Check for all or none
+// You can specify the possible existence of an element with a question mark, ?. 
+// This checks for zero or one of the preceding element. You can think of this symbol as 
+// saying the previous element is optional.
+// let american = "color";
+// let british = "colour";
+// let rainbowRegex= /colou?r/;
+// rainbowRegex.test(american);
+// rainbowRegex.test(british);
+// Both uses of the test method would return true.
