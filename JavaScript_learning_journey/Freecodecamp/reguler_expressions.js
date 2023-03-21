@@ -194,3 +194,15 @@
 // let nonSpaceRegex = /\S/g;
 // whiteSpace.match(nonSpaceRegex).length;
 // The value returned by the .length method would be 32.
+//---------------------------------------
+// Specify Uppder and lower number of matches 
+// You can specify the lower and upper number of patterns with quantity specifiers. 
+// Quantity specifiers are used with curly brackets ({ and }). 
+// You put two numbers between the curly brackets - for the lower and upper number of patterns.
+// let A4 = "aaaah";
+// let A2 = "aah";
+// let multipleA = /a{3,5}h/;
+// multipleA.test(A4);
+// multipleA.test(A2);
+// The first test call would return true, while the second would return false.
+//---------------------------------------------
