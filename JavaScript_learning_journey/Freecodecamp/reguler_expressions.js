@@ -187,3 +187,10 @@
 // let spaceRegex = /\s/g;
 // whiteSpace.match(spaceRegex);
 // This match call would return [" ", " "].
+///---------------------------------
+// match all non-whitespace
+// using \S
+// let whiteSpace = "Whitespace. Whitespace everywhere!"
+// let nonSpaceRegex = /\S/g;
+// whiteSpace.match(nonSpaceRegex).length;
+// The value returned by the .length method would be 32.
