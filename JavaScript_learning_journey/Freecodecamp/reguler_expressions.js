@@ -241,3 +241,19 @@
 // rainbowRegex.test(american);
 // rainbowRegex.test(british);
 // Both uses of the test method would return true.
+// -------------------------------
+// Postivie and negative lookahead 
+// A positive lookahead will look to make sure the element in the search pattern is there, but won't actually match it. 
+// A positive lookahead is used as (?=...) where the ... is the required part that is not matched.
+// On the other hand, a negative lookahead will look to make sure the element in the search pattern is not there. 
+// A negative lookahead is used as (?!...) where the ... is the pattern that you do not want to be there.
+//  The rest of the pattern is returned if the negative lookahead part is not present.
+// example : 
+// let quit = "qu";
+// let noquit = "qt";
+// let quRegex= /q(?=u)/;
+// let qRegex = /q(?!u)/;
+// quit.match(quRegex);
+// noquit.match(qRegex);
+// result : Both of these match calls would return ["q"].
+
