@@ -256,4 +256,13 @@
 // quit.match(quRegex);
 // noquit.match(qRegex);
 // result : Both of these match calls would return ["q"].
+// ---------------------------------------
+// Check For Mixed Grouping of Characters
+// If you want to find either Penguin or Pumpkin in a string, 
+// you can use the following Regular Expression: /P(engu|umpk)in/g
+// using the '|' 
+// let testStr = "Pumpkin";
+// let testRegex = /P(engu|umpk)in/;
+// testRegex.test(testStr);
+// the test will return true
 
