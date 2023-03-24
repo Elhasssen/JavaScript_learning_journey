@@ -25,9 +25,10 @@
 // object.
 //-------------------------------------------------------
 //Another syntax error to be aware of is that all opening parentheses, brackets, curly braces, 
-// and quotes have a closing pair.
+// and quotes have a closing pair.f
 // Catch Mixed Usage of Single and Double Quotes.
 // it is okay to use only one style of quotes. You can escape the quotes inside the string by 
 // using the backslash (\) escape character:
 //--------------------------------
+//
 
