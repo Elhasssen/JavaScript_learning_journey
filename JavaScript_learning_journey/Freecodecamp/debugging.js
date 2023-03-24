@@ -12,3 +12,15 @@
 // messages. When you make changes to your code, it will automatically run and show the logs. The 
 // freeCodeCamp console is then cleared each time your code runs.
 //------------------------------------------------
+// Use typeof to Check the Type of a Variable
+// You can use typeof to check the data structure, or type, of a variable. 
+// This is useful in debugging when working with multiple data types. 
+// console.log(typeof "");
+// console.log(typeof 0);
+// console.log(typeof []);
+// console.log(typeof {});
+// JavaScript recognizes seven primitive (immutable) data types: 
+// $Boolean, Null, Undefined, Number, String, Symbol (new with ES6), and BigInt (new with ES2020), 
+// and one type for mutable items: Object. Note that in JavaScript, arrays are technically a type of 
+// object.
+
