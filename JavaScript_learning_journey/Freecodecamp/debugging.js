@@ -30,5 +30,13 @@
 // it is okay to use only one style of quotes. You can escape the quotes inside the string by 
 // using the backslash (\) escape character:
 //--------------------------------
-//
+// catching atch Use of Assignment Operator Instead of Equality Operator
+//---------------------------------------------------------
+// Catch Missing Open and Closing Parenthesis After a Function Call:
+// function myFunction() {
+//   return "You rock!";
+// }
+// let varOne = myFunction;
+// let varTwo = myFunction();
+// Here varOne is the function myFunction, and varTwo is the string You rock!.
 
