@@ -6,3 +6,9 @@
 // your calculations throughout your code will help narrow down where the problem is.
 // console.log('Hello world!');
 // ------------------------------
+// Understanding the Differences between the freeCodeCamp and Browser Console
+//  There are many methods to use with console to output messages. log, warn, and clear to name a few.
+// The freeCodeCamp console will only output log messages, while the browser console will output all 
+// messages. When you make changes to your code, it will automatically run and show the logs. The 
+// freeCodeCamp console is then cleared each time your code runs.
+//------------------------------------------------
