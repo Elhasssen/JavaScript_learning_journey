@@ -45,4 +45,10 @@
 // order. If the arguments are different types, such as a function expecting an array and an integer, 
 // this will likely throw a runtime error.
 //---------------------------------------
+// Off by one errors (sometimes called OBOE) crop up when you're trying to target a specific index of 
+// a string or array (to slice or access a segment), or when looping over the indices of them. 
+// JavaScript indexing starts at zero, not one, which means the last index is always one less than 
+// the length of the item. If you try to access an index equal to the length, the program may throw 
+// an "index out of range" reference error or print undefined.
+
 
