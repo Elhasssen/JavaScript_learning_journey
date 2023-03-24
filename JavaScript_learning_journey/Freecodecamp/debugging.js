@@ -39,4 +39,10 @@
 // let varOne = myFunction;
 // let varTwo = myFunction();
 // Here varOne is the function myFunction, and varTwo is the string You rock!.
+// -----------------------------
+// Catch Arguments Passed in the Wrong Order When Calling a Function.
+//  the next bug to watch out for is when a function's arguments are supplied in the incorrect 
+// order. If the arguments are different types, such as a function expecting an array and an integer, 
+// this will likely throw a runtime error.
+//---------------------------------------
 
