@@ -58,3 +58,8 @@
 // condition, causing an infinite loop.
 // Printing variable values with each cycle of your loop by using console.log() can uncover buggy 
 // behavior related to resetting, or failing to reset a variable.
+//------------------------------------/
+//  The final topic is the dreaded infinite loop. Loops are great tools when you need your program 
+// to run a code block a certain number of times or until a condition is met, but they need a terminal 
+// condition that ends the looping. Infinite loops are likely to freeze or crash the browser, and cause 
+// general program execution mayhem, which no one wants.
