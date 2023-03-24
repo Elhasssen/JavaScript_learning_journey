@@ -23,4 +23,11 @@
 // $Boolean, Null, Undefined, Number, String, Symbol (new with ES6), and BigInt (new with ES2020), 
 // and one type for mutable items: Object. Note that in JavaScript, arrays are technically a type of 
 // object.
+//-------------------------------------------------------
+//Another syntax error to be aware of is that all opening parentheses, brackets, curly braces, 
+// and quotes have a closing pair.
+// Catch Mixed Usage of Single and Double Quotes.
+// it is okay to use only one style of quotes. You can escape the quotes inside the string by 
+// using the backslash (\) escape character:
+//--------------------------------
 
