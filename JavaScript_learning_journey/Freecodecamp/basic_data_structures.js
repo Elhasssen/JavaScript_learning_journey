@@ -16,3 +16,8 @@
 // Using bracket notation, we have now reset the item at index 1 from the string b, to not b anymore. 
 // Now ourArray is ["a", "not b anymore", "c"].
 // -------------------------------------
+// Add Items to an Array with push() and unshift()
+// Both methods take one or more elements as parameters and add those elements to the array the method 
+// is being called on; the push() method adds elements to the end of an array, and unshift() adds 
+// elements to the beginning.
+// --------------------------------------
