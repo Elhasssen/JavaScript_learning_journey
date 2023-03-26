@@ -48,3 +48,11 @@
 // console.log(numbers);
 // The second occurrence of 12 is removed, and we add 13 and 14 at the same index. 
 // The numbers array would now be [ 10, 11, 12, 13, 14, 15 ].
+//--------------------------------
+// Copy Array Items Using slice()
+// slice() takes only 2 parameters — the first is the index at which to begin extraction, 
+// and the second is the index at which to stop extraction (extraction will occur up to, 
+// but not including the element at this index). 
+// let weatherConditions = ['rain', 'snow', 'sleet', 'hail', 'clear'];
+// let todaysWeather = weatherConditions.slice(1, 3);
+// todaysWeather would have the value ['snow', 'sleet'],
