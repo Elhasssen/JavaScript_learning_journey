@@ -56,3 +56,12 @@
 // let weatherConditions = ['rain', 'snow', 'sleet', 'hail', 'clear'];
 // let todaysWeather = weatherConditions.slice(1, 3);
 // todaysWeather would have the value ['snow', 'sleet'],
+//--------------------------------------------------
+// Copy an Array with the Spread Operator
+// ES6's new spread operator allows us to easily copy all of an array's elements, in order, 
+// with a simple and highly readable syntax. The spread syntax simply looks like this: ...
+// let thisArray = [true, true, undefined, false, null];
+// let thatArray = [...thisArray];
+// thatArray equals [true, true, undefined, false, null]. thisArray remains unchanged and 
+// thatArray contains the same elements as thisArray.
+//-------------------------------------------
