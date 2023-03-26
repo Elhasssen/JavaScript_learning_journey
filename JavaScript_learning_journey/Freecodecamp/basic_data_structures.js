@@ -21,3 +21,13 @@
 // is being called on; the push() method adds elements to the end of an array, and unshift() adds 
 // elements to the beginning.
 // --------------------------------------
+// Remove Items from an Array with pop() and shift()
+//  pop() removes an element from the end of an array, 
+// while shift() removes an element from the beginning. 
+// function popShift(arr) {
+//   let popped = arr.pop(); // Change this line
+//   let shifted = arr.shift(); // Change this line
+//   return [shifted, popped];
+// }
+
+// console.log(popShift(['challenge', 'is', 'not', 'complete']));
