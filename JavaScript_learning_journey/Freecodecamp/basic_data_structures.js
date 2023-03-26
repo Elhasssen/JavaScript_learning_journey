@@ -65,3 +65,12 @@
 // thatArray equals [true, true, undefined, false, null]. thisArray remains unchanged and 
 // thatArray contains the same elements as thisArray.
 //-------------------------------------------
+// Combine Arrays with the Spread Operator
+// we can concatenate arrays, but this only allows us to combine arrays at the end of one, 
+// and at the start of another.
+// let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];
+// let thatArray = ['basil', 'cilantro', ...thisArray, 'coriander'];
+// thatArray would have the value 
+// ['basil', 'cilantro', 'sage', 'rosemary', 'parsley', 'thyme', 'coriander'].
+// ---------------------------------------------
+// 
