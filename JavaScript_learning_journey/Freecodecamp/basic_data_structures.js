@@ -73,4 +73,13 @@
 // thatArray would have the value 
 // ['basil', 'cilantro', 'sage', 'rosemary', 'parsley', 'thyme', 'coriander'].
 // ---------------------------------------------
-// 
+// Check For The Presence of an Element With indexOf()
+// indexOf() takes an element as a parameter, and when called, it returns the position, or index, 
+// of that element, or -1 if the element does not exist on the array.
+// let fruits = ['apples', 'pears', 'oranges', 'peaches', 'pears'];
+// fruits.indexOf('dates');
+// fruits.indexOf('oranges');
+// fruits.indexOf('pears');
+// indexOf('dates') returns -1, indexOf('oranges') returns 2, and indexOf('pears') returns 1 
+// (the first index at which each element exists).
+//- ------------------------------------
