@@ -154,3 +154,7 @@
 // and we want to check our foods object for the presence of that food. This might look like:
 // let selectedFood = getCurrentFood(scannedItem);
 // let inventory = foods[selectedFood];
+//------------------------------
+// Use the delete Keyword to Remove Object Properties
+// delete foods.apples;
+
