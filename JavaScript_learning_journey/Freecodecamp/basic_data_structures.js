@@ -102,4 +102,22 @@
 // }
 // console.log(filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 3));
 //--------------------------------------------------------------------
-// 
+// Create complex multi-dimensional arrays
+//let nestedArray = [
+//     ['deep'],
+//     [
+//       ['deeper'], ['deeper'] 
+//     ],
+//     [
+//       [
+//         ['deepest'], ['deepest']
+//       ],
+//       [
+//         [
+//           ['deepest-est?']
+//         ]
+//       ]
+//     ]
+//   ];
+// The deep array is nested 2 levels deep. The deeper arrays are 3 levels deep. 
+// The deepest arrays are 4 levels, and the deepest-est? is 5.
