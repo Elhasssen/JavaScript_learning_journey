@@ -193,5 +193,5 @@
   
 //   console.log(countOnline(users));
 // When you write usersObj.user, you're trying to access the elem property of car object, which does not exist.
-// But when you use usersObj[user], you're trying to access the property of car object that has the 
-// name the same as that stored in the variable elem.
+// But when you use usersObj[user], you're trying to access the property of usersObj object that has the 
+// name the same as that stored in the variable user.
