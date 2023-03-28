@@ -121,3 +121,13 @@
 //   ];
 // The deep array is nested 2 levels deep. The deeper arrays are 3 levels deep. 
 // The deepest arrays are 4 levels, and the deepest-est? is 5.
+// -----------------------
+// Add Key-Value Pairs to JavaScript Objects
+// const tekkenCharacter = {
+//     player: 'Hwoarang',
+//     fightingStyle: 'Tae Kwon Doe',
+//     human: true
+//   };
+// tekkenCharacter.origin = 'South Korea';
+// tekkenCharacter['hair color'] = 'dyed orange';
+// --------------------------------
