@@ -161,3 +161,37 @@
 // users.hasOwnProperty('Alan');
 // 'Alan' in users;
 // Both of these would return true.
+// -------------------------------------------
+// Iterate Through the Keys of an Object with a for...in Statement
+// for (let user in users) {
+//   console.log(user);
+// }
+// note : 
+// const users = {
+//     Alan: {
+//       online: false
+//     },
+//     Jeff: {
+//       online: true
+//     },
+//     Sarah: {
+//       online: false
+//     }
+//   }
+  
+//   function countOnline(usersObj) {
+//     // Only change code below this line
+//     let count = 0;
+//     for (let user in usersObj) {
+//       if (usersObj[user].online == true) {
+//         count++;
+//       }
+//     }
+//     return count;
+//     // Only change code above this line
+//   }
+  
+//   console.log(countOnline(users));
+// When you write usersObj.user, you're trying to access the elem property of car object, which does not exist.
+// But when you use usersObj[user], you're trying to access the property of car object that has the 
+// name the same as that stored in the variable elem.
