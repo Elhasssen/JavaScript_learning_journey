@@ -157,4 +157,7 @@
 //------------------------------
 // Use the delete Keyword to Remove Object Properties
 // delete foods.apples;
-
+// Check if an Object has a Property
+// users.hasOwnProperty('Alan');
+// 'Alan' in users;
+// Both of these would return true.
