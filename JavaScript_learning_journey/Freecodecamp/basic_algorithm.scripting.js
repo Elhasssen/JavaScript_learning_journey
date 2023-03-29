@@ -28,3 +28,18 @@
 //   }
 //   console.log(factorialize(5));
 //   factorialize(5);
+// -----------------------------
+// Find the Longest Word in a String
+// function findLongestWordLength(str) {
+//     let words = str.split(' ');
+//     let maxLength = words[0].length;
+//     for (let i = 1 ; i<= words.length - 1; i++){
+//       if (words[i].length > maxLength) {
+//         maxLength = words[i].length;
+//       } 
+//     }
+//     return maxLength;
+//   }
+//   console.log(findLongestWordLength("The quick brown fox jumped over the lazy dog"))
+//   findLongestWordLength("The quick brown fox jumped over the lazy dog");
+// ----------------------------------------------
