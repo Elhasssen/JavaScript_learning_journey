@@ -16,3 +16,15 @@
 //   }
   
 //   console.log(reverseString("hello"))
+//-----------------------------
+// Factorialize a Number
+// function factorialize(num) {
+//     let fact = 1;
+//     for (let i = num - 1; i >= 0; i--){
+//       fact *= num;
+//       num--;
+//     }
+//     return fact;
+//   }
+//   console.log(factorialize(5));
+//   factorialize(5);
