@@ -175,3 +175,19 @@
 //   }
   
 //   console.log(bouncer([7, "ate", "", false, 9]));
+// ----------------------------------
+//Where do I Belong
+// function getIndexToIns(arr, num) {
+//     arr.sort((a, b) => a-b);
+//     console.log(arr)
+  
+//     for (let i = 0; i < arr.length; i++) {
+//       if (arr[i] >= num) return i;
+//     }
+  
+//     return arr.length;
+//   }
+  
+//   getIndexToIns([5, 3, 20, 3], 5);
+// Return the lowest index at which a value (second argument) should be inserted into an array 
+// (first argument) once it has been sorted. The returned value should be a number.
