@@ -12,3 +12,14 @@
 //     numLegs: 2
 //   };
 //   console.log(duck.name);
+// ----------------------------------------------------
+// Create a Method on an Object
+// let dog = {
+//     name: "Spot",
+//     numLegs: 4,
+//     sayLegs : () => {return 'This dog has ' + dog.numLegs + ' legs.'}
+  
+//   };
+  
+//   console.log(dog.sayLegs())
+// --------------------------------
