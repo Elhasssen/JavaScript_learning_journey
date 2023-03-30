@@ -70,4 +70,15 @@
 //   let cardinal = new Bird("Bruce", "red"); This gives a new instance of Bird with name and color 
 //   properties set to Bruce and red, respectively. The numLegs property is still set to 2.
 // -----------------------------------------------
-// 
+// Verify an Object's Constructor with instanceof
+// let Bird = function(name, color) {
+//     this.name = name;
+//     this.color = color;
+//     this.numLegs = 2;
+//   }
+  
+//   let crow = new Bird("Alexis", "black");
+  
+//   crow instanceof Bird;
+//   JavaScript gives a convenient way to verify this with the instanceof operator. instanceof allows 
+//   you to compare an object to a constructor
