@@ -60,3 +60,14 @@
 //   not point to the newly created object, giving unexpected results. Now blueBird has all the 
 //   properties defined inside the Bird constructor
 // -----------------------------------------------
+// Extend Constructors to Receive Arguments
+// function Bird(name, color) {
+//     this.name = name;
+//     this.color = color;
+//     this.numLegs = 2;
+//   }
+//   Then pass in the values as arguments to define each unique bird into the Bird constructor: 
+//   let cardinal = new Bird("Bruce", "red"); This gives a new instance of Bird with name and color 
+//   properties set to Bruce and red, respectively. The numLegs property is still set to 2.
+// -----------------------------------------------
+// 
