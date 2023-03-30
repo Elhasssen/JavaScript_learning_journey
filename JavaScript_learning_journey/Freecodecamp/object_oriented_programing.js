@@ -34,3 +34,15 @@
 // changed to mallard, it is not necessary to find all the references to duck in the code. It 
 // makes the code reusable and easier to read.
 // --------------------------------------
+// Define a Constructor Function
+// Constructors are functions that create new objects. They define properties and behaviors 
+// that will belong to the new object.
+// function Bird() {
+//     this.name = "Albert";
+//     this.color = "blue";
+//     this.numLegs = 2;
+//   }
+// Constructors are defined with a capitalized name to distinguish them from other functions that are not constructors.
+// Constructors use the keyword this to set properties of the object they will create. Inside the constructor,
+//  this refers to the new object it will create.
+// Constructors define properties and behaviors instead of returning a value as other functions might.
