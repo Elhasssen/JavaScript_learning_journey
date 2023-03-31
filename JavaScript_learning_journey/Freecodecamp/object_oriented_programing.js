@@ -93,3 +93,8 @@
 // let canary = new Bird("Tweety");
 // every instance of Bird will have its own copy of these properties. 
 // ----------------------------------------------------------------
+// Use Prototype Properties to Reduce Duplicate Code
+// imagine if there are millions of instances. That would be a lot of duplicated variables.
+// A better way is to use the prototype of Bird. Properties in the prototype are shared among 
+// ALL instances of Bird. Here's how to add numLegs to the Bird prototype
+// Bird.prototype.numLegs = 2;
