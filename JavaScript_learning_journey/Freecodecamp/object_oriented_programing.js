@@ -121,3 +121,15 @@
 // console.log(prototypeProps);
 // console.log(ownProps) would display ["name"] in the console, 
 // and console.log(prototypeProps) would display ["numLegs"].
+//-----------------------------------
+// Understand the Constructor Property
+// let duck = new Bird();
+// let beagle = new Dog();
+
+// console.log(duck.constructor === Bird); 
+// console.log(beagle.constructor === Dog);
+// Both of these console.log calls would display true in the console.
+
+// Note that the constructor property is a reference to the constructor function that created the 
+// instance. The advantage of the constructor property is that it's possible to check for this 
+// property to find out what kind of object it is.
