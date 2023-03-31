@@ -82,3 +82,14 @@
 //   crow instanceof Bird;
 //   JavaScript gives a convenient way to verify this with the instanceof operator. instanceof allows 
 //   you to compare an object to a constructor
+// ------------------------------
+// Understand Own Properties
+// function Bird(name) {
+//   this.name = name;
+//   this.numLegs = 2;
+// }
+
+// let duck = new Bird("Donald");
+// let canary = new Bird("Tweety");
+// every instance of Bird will have its own copy of these properties. 
+// ----------------------------------------------------------------
