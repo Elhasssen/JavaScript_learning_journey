@@ -172,3 +172,12 @@
 // let beagle = new Dog("Snoopy");
   
 // log(Dog.prototype.isPrototypeOf(beagle))
+// --------------------------
+// Understand the Prototype Chain
+// function Bird(name) {
+//     this.name = name;
+//   }
+  
+// typeof Bird.prototype;
+// Object.prototype.isPrototypeOf(Bird.prototype);
+//-----------------------------------
