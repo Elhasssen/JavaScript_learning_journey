@@ -98,3 +98,26 @@
 // A better way is to use the prototype of Bird. Properties in the prototype are shared among 
 // ALL instances of Bird. Here's how to add numLegs to the Bird prototype
 // Bird.prototype.numLegs = 2;
+// ---------------------------
+// Iterating over properties 
+// 
+// function Bird(name) {
+//   this.name = name;  //own property
+// }
+// Bird.prototype.numLegs = 2; // prototype property
+// let duck = new Bird("Donald");
+// let ownProps = [];
+// let prototypeProps = [];
+
+// for (let property in duck) {
+//   if(duck.hasOwnProperty(property)) {
+//     ownProps.push(property);
+//   } else {
+//     prototypeProps.push(property);
+//   }
+// }
+
+// console.log(ownProps);
+// console.log(prototypeProps);
+// console.log(ownProps) would display ["name"] in the console, 
+// and console.log(prototypeProps) would display ["numLegs"].
