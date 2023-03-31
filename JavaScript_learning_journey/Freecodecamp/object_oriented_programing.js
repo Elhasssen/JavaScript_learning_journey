@@ -133,3 +133,17 @@
 // Note that the constructor property is a reference to the constructor function that created the 
 // instance. The advantage of the constructor property is that it's possible to check for this 
 // property to find out what kind of object it is.
+// ------------------------------------------
+// Change the Prototype to a New Object
+// A more efficient way is to set the prototype to a new object that already contains the properties. 
+// This way, the properties are added all at once:
+// Bird.prototype = {
+//     numLegs: 2, 
+//     eat: function() {
+//       console.log("nom nom nom");
+//     },
+//     describe: function() {
+//       console.log("My name is " + this.name);
+//     }
+//   };
+//----------------------------------------------
