@@ -216,3 +216,9 @@
 // let duck = Object.create(Animal.prototype);; // Change this line
 // let beagle = Object.create(Animal.prototype);;
 //--------------------------------------------------------------
+// Set the Child's Prototype to an Instance of the Parent
+// Bird.prototype = Object.create(Animal.prototype);
+// let duck = new Bird("Donald");
+// duck.eat();
+// duck inherits all of Animal's properties, including the eat method.
+// ----------------------------------
