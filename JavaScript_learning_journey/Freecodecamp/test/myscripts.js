@@ -1,9 +1,16 @@
-let log = console.log
+function Animal() { };
 
-function Dog(name) {
+Animal.prototype = {
+  constructor: Animal, 
+  describe: function() {
+    console.log("My name is " + this.name);
+  }
+};
+function Cat(name) {
     this.name = name;
   }
+Cat.prototype = {
+    constructor: Cat
+  };
   
-let beagle = new Dog("Snoopy");
-  
-log(Dog.prototype.isPrototypeOf(beagle))
+let puss = new Cat('nnn')
