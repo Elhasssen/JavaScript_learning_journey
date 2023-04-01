@@ -1,16 +1,16 @@
-function Animal() { };
+function Animal(name) {
+  this.name = name;
+ }
 
 Animal.prototype = {
-  constructor: Animal, 
-  describe: function() {
-    console.log("My name is " + this.name);
+  constructor: Animal,
+  eat: function() {
+    console.log("nom nom nom");
   }
 };
-function Cat(name) {
-    this.name = name;
-  }
-Cat.prototype = {
-    constructor: Cat
-  };
-  
-let puss = new Cat('nnn')
+
+// Only change code below this line
+
+let duck = Object.create(Animal.prototype);; // Change this line
+let beagle = Object.create(Animal.prototype);;
+let cat = new Animal('meaw');
