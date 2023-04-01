@@ -1,5 +1,5 @@
-function Animal(name) {
-  this.name = name;
+function Animal() {
+  this.name = 'hello';
  }
 
 Animal.prototype = {
@@ -8,9 +8,10 @@ Animal.prototype = {
     console.log("nom nom nom");
   }
 };
-
-// Only change code below this line
-
-let duck = Object.create(Animal.prototype);; // Change this line
-let beagle = Object.create(Animal.prototype);;
-let cat = new Animal('meaw');
+function Bird() { 
+  this.name = 'hello2'
+}
+Bird.prototype = Object.create(Animal.prototype);
+let duck = new Bird();
+Bird.prototype.constructor = Bird;
+duck.constructor
