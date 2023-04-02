@@ -1,9 +1,14 @@
-function Bird() {
-  let hatchedEgg = 10;
-
-  getHatchedEggCount = function() { 
-    return hatchedEgg;
-  };
-}
-let ducky = new Bird();
-ducky.getHatchedEggCount();
+let motionModule = (function () {
+  return {
+    glideMixin: function(obj) {
+      obj.glide = function() {
+        console.log("Gliding on the water");
+      };
+    },
+    flyMixin: function(obj) {
+      obj.fly = function() {
+        console.log("Flying, wooosh!");
+      };
+    }
+  }
+})();
