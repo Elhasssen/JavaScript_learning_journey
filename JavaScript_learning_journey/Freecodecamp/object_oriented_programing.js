@@ -249,3 +249,20 @@
 // duck.eat();
 // duck.fly();
 // ------------------------------------------------
+// Override Inherited Methods
+// function Animal() { }
+// Animal.prototype.eat = function() {
+//   return "nom nom nom";
+// };
+// function Bird() { }
+
+// Bird.prototype = Object.create(Animal.prototype);
+
+// Bird.prototype.eat = function() {
+//   return "peck peck peck";
+// };
+// duck => Is eat() defined here? No.
+// Bird => Is eat() defined here? => Yes. Execute it and stop searching.
+// Animal => eat() is also defined, but JavaScript stopped searching before reaching this level.
+// Object => JavaScript stopped searching before reaching this level.
+// -----------------------------------------------------
