@@ -1,14 +1,9 @@
-function Animal() { }
-Animal.prototype.eat = function() { console.log("nom nom nom"); };
+function Bird() {
+  let hatchedEgg = 10;
 
-function Dog() { }
-
-// Only change code below this line
-Dog.prototype = Object.create(Animal.prototype);
-Dog.prototype.constructor = Dog;
-
-Dog.prototype.bark = function () {
-  console.log('Woof!')
+  getHatchedEggCount = function() { 
+    return hatchedEgg;
+  };
 }
-
-let beagle = new Dog();
+let ducky = new Bird();
+ducky.getHatchedEggCount();

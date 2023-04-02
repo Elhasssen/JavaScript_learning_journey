@@ -290,3 +290,20 @@
 //   flyMixin(plane);
 //   bird.fly();
 // plane.fly();
+//----------------------------------------------------
+// Use Closure to Protect Properties Within an Object from Being Modified Externally
+// The simplest way to make this public property private is by creating a variable within the 
+// constructor function. This changes the scope of that variable to be within the constructor 
+// function versus available globally. This way, the variable can only be accessed and changed 
+// by methods also within the constructor function.
+// function Bird() {
+//     let hatchedEgg = 10;
+  
+//     this.getHatchedEggCount = function() { 
+//       return hatchedEgg;
+//     };
+//   }
+// let ducky = new Bird();
+// ducky.getHatchedEggCount();
+
+
