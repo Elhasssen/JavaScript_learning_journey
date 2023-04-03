@@ -1,5 +1,7 @@
-const workWindow = ['GMail', 'Inbox', 'Work mail', 'Docs', 'freeCodeCamp'];
-let index = 1;
-const tabsBeforeIndex = workWindow.slice(0,index+1);
-const tabsAfterIndex = workWindow.slice(index + 1);
-const c = tabsBeforeIndex.concat(tabsAfterIndex);
+const kvArray = [
+    { key: 1, value: 10 },
+    { key: 2, value: 20 },
+    { key: 3, value: 30 },
+  ];
+  
+  const reformattedArray = kvArray.map(({ key, value }) => ({ key: value }));
