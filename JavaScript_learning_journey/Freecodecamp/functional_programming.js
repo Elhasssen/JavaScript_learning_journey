@@ -113,3 +113,18 @@
 //     return newArray;
 //   };
 //-------------------------------------------------------------
+// Use the filter Method to Extract Data from an Array
+// filter calls a function on each element of an array and returns a new array containing only the 
+// elements for which that function returns a truthy value - that is, a value which returns true 
+// if passed to the Boolean() constructor. In other words, it filters the array, based on the function 
+// passed to it. Like map, it does this without needing to modify the original array.
+// const users = [
+//     { name: 'John', age: 34 },
+//     { name: 'Amy', age: 20 },
+//     { name: 'camperCat', age: 10 }
+//   ];
+  
+//   const usersUnder30 = users.filter(user => user.age < 30);
+//   console.log(usersUnder30); 
+// The console would display the value [ { name: 'Amy', age: 20 }, { name: 'camperCat', age: 10 } ].
+//-------------------------------------------------------------------
