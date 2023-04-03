@@ -1,16 +1,5 @@
-const Arithmetics = {
-  add: (a, b) => {
-      return `${a} + ${b} = ${a + b}`;
-  },
-  subtract: (a, b) => {
-      return `${a} - ${b} = ${a - b}`
-  },
-  multiply: (a, b) => {
-      return `${a} * ${b} = ${a * b}`
-  },
-  division: (a, b) => {
-      if (b != 0) return `${a} / ${b} = ${a / b}`;
-      return `Cannot Divide by Zero!!!`;
-  }
-
-}
+const workWindow = ['GMail', 'Inbox', 'Work mail', 'Docs', 'freeCodeCamp'];
+let index = 1;
+const tabsBeforeIndex = workWindow.slice(0,index+1);
+const tabsAfterIndex = workWindow.slice(index + 1);
+const c = tabsBeforeIndex.concat(tabsAfterIndex);

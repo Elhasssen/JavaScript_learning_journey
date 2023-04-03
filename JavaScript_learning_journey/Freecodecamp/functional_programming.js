@@ -22,3 +22,8 @@
 // When functions are passed in to or returned from another function, then those functions which 
 // were passed in or returned can be called a lambda.
 // ----------------------------------------------
+// Understand the Hazards of Using Imperative Code
+// Functional programming is a good habit. It keeps your code easy to manage, and saves you from 
+// sneaky bugs. But before we get there, let's look at an imperative approach to programming 
+// to highlight where you may have issues.
+//-----------------------------------------------------------------------
