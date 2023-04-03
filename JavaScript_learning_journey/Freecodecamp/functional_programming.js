@@ -27,3 +27,7 @@
 // sneaky bugs. But before we get there, let's look at an imperative approach to programming 
 // to highlight where you may have issues.
 //-----------------------------------------------------------------------
+// Avoid Mutations and Side Effects Using Functional Programming
+// Recall that in functional programming, changing or altering things is called mutation, and the 
+// outcome is called a side effect. A function, ideally, should be a pure function, meaning that it 
+// does not cause any side effects.
