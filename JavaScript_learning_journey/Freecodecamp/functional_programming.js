@@ -165,3 +165,30 @@
 //   const first = [1, 2, 3];
 //   const second = [4, 5];
 //   nonMutatingConcat(first, second);
+// ---------------------------------------------------
+//Add Elements to the End of an Array Using concat Instead of push.
+// Functional programming is all about creating and using non-mutating functions.
+// The last challenge introduced the concat method as a way to merge arrays into a new array without
+// mutating the original arrays. Compare concat to the push method. push adds items to the end of 
+// the same array it is called on, which mutates that array.
+// ----------------------------------------
+// Use the reduce Method to Analyze Data
+// The reduce method allows for more general forms of array processing, and it's possible to show 
+// that both filter and map can be derived as special applications of reduce. The reduce method 
+// iterates over each item in an array and returns a single value (i.e. string, number, object, array). 
+// This is achieved via a callback function that is called on each iteration.
+// const users = [
+//     { name: 'John', age: 34 },
+//     { name: 'Amy', age: 20 },
+//     { name: 'camperCat', age: 10 }
+//   ];
+  
+//   const sumOfAges = users.reduce((sum, user) => sum + user.age, 0);
+//   console.log(sumOfAges);
+//   The callback function accepts four arguments. The first argument is known as the accumulator, 
+//   which gets assigned the return value of the callback function from the previous iteration, the 
+//   second is the current element being processed, the third is the index of that element and the 
+//   fourth is the array upon which reduce is called.
+//   reduce has an additional parameter which takes an initial value for the accumulator. If this 
+//   second parameter is not used, then the first iteration is skipped and the second iteration 
+//   gets passed the first element of the array as the accumulator.
