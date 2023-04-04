@@ -192,3 +192,24 @@
 //   reduce has an additional parameter which takes an initial value for the accumulator. If this 
 //   second parameter is not used, then the first iteration is skipped and the second iteration 
 //   gets passed the first element of the array as the accumulator.
+// -------------------------------------------------
+// Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem
+// const squareList = arr => {
+//     let newArr = arr.filter(num => Number.isInteger(num) && num > 0).map(num => num * num);
+//     // Only change code below this line
+//     return newArr;
+//     // Only change code above this line
+//   };
+  
+//   const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
+//   console.log(squaredIntegers);
+/// or using reduce 
+// const squareList = arr => {
+//     let newArr = arr.filter(num => Number.isInteger(num) && num > 0).reduce((a,b) => a.concat(b*b),[]);
+//     // Only change code below this line
+//     return newArr;
+//     // Only change code above this line
+//   };
+  
+//   const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
+//   console.log(squaredIntegers);
