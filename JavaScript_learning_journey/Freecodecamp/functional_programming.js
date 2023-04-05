@@ -249,3 +249,14 @@
 //   // Add your code above this line
 // }
 // nonMutatingSort(globalArray);
+// Split a String into an Array Using the split Method
+// The split method splits a string into an array of strings. It takes an argument for the delimiter, 
+// which can be a character to use to break up the string or a regular expression.
+// function splitify(str) {
+//     // Only change code below this line
+//     return str.split(/\W/)
+  
+//     // Only change code above this line
+//   }
+  
+// console.log(splitify("Hello World,I-am code"));
