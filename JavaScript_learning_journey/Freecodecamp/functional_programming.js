@@ -280,3 +280,13 @@
 //   }
 //   // Only change code above this line
 //   console.log(urlSlug(" Winter Is  Coming"));
+// ----------------------------------------
+// Use the every Method to Check that Every Element in an Array Meets a Criteria
+// The every method works with arrays to check if every element passes a particular test. It returns 
+// a Boolean value - true if all values meet the criteria, false if not.
+// const numbers = [1, 5, 8, 0, 10, 11];
+
+// numbers.every(function(currentValue) {
+//   return currentValue < 10;
+// });
+// The every method would return false here.
