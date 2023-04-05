@@ -213,3 +213,15 @@
   
 //   const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
 //   console.log(squaredIntegers);
+// ------------------------------
+// Sort an Array Alphabetically using the sort Method
+// function ascendingOrder(arr) {
+//     return arr.sort(function(a, b) {
+//       return a - b;
+//     });
+//   }
+  
+// ascendingOrder([1, 5, 2, 3, 4]);
+// JavaScript's default sorting method is by string Unicode point value, which may return 
+// unexpected results. Therefore, it is encouraged to provide a callback function to specify 
+// how to sort the array items.
