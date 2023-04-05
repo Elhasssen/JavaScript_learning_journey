@@ -225,3 +225,27 @@
 // JavaScript's default sorting method is by string Unicode point value, which may return 
 // unexpected results. Therefore, it is encouraged to provide a callback function to specify 
 // how to sort the array items.
+// ----------------------------------------
+// Return a Sorted Array Without Changing the Original Array
+// const globalArray = [5, 6, 3, 2, 9];
+
+// function nonMutatingSort(arr) {
+//   // Only change code below this line
+//   let arr2 = [...arr];
+//   return arr2.sort(function (a,b){
+//     return a-b>0 ? 1: a-b<0 ? -1 : 0
+//   })
+//   // Only change code above this line
+// }
+
+// console.log(nonMutatingSort(globalArray))
+// // -- or using the concat method 
+// var globalArray = [5, 6, 3, 2, 9];
+// function nonMutatingSort(arr) {
+//   // Add your code below this line
+//   return [].concat(arr).sort(function(a, b) {
+//     return a - b;
+//   });
+//   // Add your code above this line
+// }
+// nonMutatingSort(globalArray);
