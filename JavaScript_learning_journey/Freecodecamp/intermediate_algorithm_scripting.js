@@ -123,3 +123,22 @@
   
 //   console.log(myReplace("I think we should look up there", "up", "Down"));
 //--------------------------------------
+// DNA Pairing
+// Pairs of DNA strands consist of nucleobase pairs. Base pairs are represented by the characters 
+// AT and CG, which form building blocks of the DNA double helix.
+// function pairElement(str) {
+//     let atgc = {
+//       'A' : 'T',
+//       'T' : 'A',
+//       'G' : 'C',
+//       'C' : 'G'
+//     }
+//     let arr = str.split('')
+//     let output = [];
+//     arr.map(s => output.push([s,atgc[s]]))
+//     return output;
+//   }
+  
+//   console.log(pairElement("GCG"));
+  //------------------------------------------------------------
+  
