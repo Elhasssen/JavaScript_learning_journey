@@ -140,5 +140,26 @@
 //   }
   
 //   console.log(pairElement("GCG"));
-  //------------------------------------------------------------
+//------------------------------------------------------------
+// Missing letters
+// Find the missing letter in the passed letter range and return it.
+// If all letters are present in the range, return undefined.
+// function fearNotLetter(str) {
   
+//     let code = str.charCodeAt(0)
+//     for (let i =0; i < str.length; i++) {
+//       if (code != str.charCodeAt(i)){
+//         break;
+//       }
+//       code += 1;
+//     } 
+//     if (code - 1 == str.charCodeAt(str.length-1)) {
+//       return undefined
+//     } else {
+//       return String.fromCharCode(code);
+//     }
+    
+//   }
+  
+//   console.log(fearNotLetter("abce"));
+  //------------------------------------------------------
