@@ -201,3 +201,20 @@
 //   return [...new Set(arr.flat())];
 // }
 //--------------------------------------------------
+// Convert HTML Entities
+// Convert the characters &, <, >, " (double quote), and ' (apostrophe), in a string to their corresponding HTML entities.
+// function convertHTML(str) {
+//   let html = {
+//     '&' : '&amp;',
+//     '>' : '&gt;',
+//     '<' : '&lt;',
+//     '"' : '&quot;',
+//     "'" : '&apos;'
+//   }
+//   return str.replace(/([&<>\"'])/g, match => html[match]);
+//   return res
+
+// }
+
+// console.log(convertHTML("Hamburgers < Pizza < Tacos"));
+//-------------------------------------------------------
