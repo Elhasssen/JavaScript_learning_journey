@@ -183,3 +183,16 @@
 //   // test here
 //   fearNotLetter("abce");
 //-----------------------------------------------------
+// sorted union 
+// function uniteUnique(arr) {
+//   let st = [...arguments]
+//   let nw = [];
+//   st.map(x=> x.map(y=> nw.push(y)))
+//   // for (let i =0; i < arguments.length; i++){
+//   //   st.add(...arguments[i])
+//   // }
+//   let ha = new Set(nw)
+//   return [...ha];
+// }
+
+// console.log(uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]));
