@@ -22,4 +22,6 @@ let p = new Vec(1,2);
 p.plus(3,1)
 p.minus(3,1)
 
+// log
+
 console.log(p)
