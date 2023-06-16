@@ -29,3 +29,6 @@ let ha =  Group.from([1,2,3]);
 
 
 console.log(ha.has(1))
+
+
+export {Group};
