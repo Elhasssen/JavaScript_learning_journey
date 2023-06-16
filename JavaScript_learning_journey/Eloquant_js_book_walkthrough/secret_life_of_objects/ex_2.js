@@ -48,6 +48,7 @@ class GroupIterator {
     }
 }
 
-for (let v of Group.from([1,2,3])) {
-    console.log(v)
-}
+let one = Group.from([1,2,3])
+let Oneiterator =one[Symbol.iterator] 
+
+console.log(Oneiterator.next())

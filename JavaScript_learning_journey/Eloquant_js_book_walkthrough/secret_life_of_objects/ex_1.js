@@ -31,4 +31,3 @@ for (let value of Group.from(["a", "b", "c"])) {
     console.log(value);
 }
 
-export {Group};
