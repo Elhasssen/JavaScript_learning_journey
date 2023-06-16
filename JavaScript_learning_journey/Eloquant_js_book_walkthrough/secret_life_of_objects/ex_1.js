@@ -27,8 +27,8 @@ class Group{
 let ha =  Group.from([1,2,3]);
 
 
-
-console.log(ha.has(1))
-
+for (let value of Group.from(["a", "b", "c"])) {
+    console.log(value);
+}
 
 export {Group};
