@@ -7,3 +7,32 @@ const roads = [
     "Marketplace-Post Office", "Marketplace-Shop",
     "Marketplace-Town Hall", "Shop-Town Hall"
     ];
+
+
+    // So we start of by splitting each value is array to 
+    // a data structure that tell us for each place 
+    // what roads that can be reached from there 
+
+    function buildGraph(edges){
+        let graph = Object.create(null);
+        function addEdge(from, to) {
+            if (graph[from] == null) {
+                graph[from] = [to];
+            } else {
+                graph[from].push(to)
+            }
+        }
+        for (let [from, to] of edges.map(edge => edge.split("-"))) {
+            addEdge(from,to);
+            addEdge(to,from);
+        }
+
+    return graph;
+    }
+
+    const roadGraph = buildGraph(roads);
+
+    console.log(roadGraph['Cabin']);
+
+         
+        
